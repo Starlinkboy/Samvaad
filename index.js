@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const fs = require('fs');
 const { GoogleGenAI } = require('@google/genai');
-const ai = new GoogleGenAI({ apiKey: "AIzaSyDxEaNhLn01ErwjamPLbT46f4sjeVEIzJw" });
+const ai = new GoogleGenAI({ apiKey: "" });
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
